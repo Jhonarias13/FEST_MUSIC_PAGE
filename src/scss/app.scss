@@ -1,0 +1,8 @@
+@import "base/normalize"; // normalize
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap'); // agregando fuentes de google
+@import "base/variables"; // importo el archivo desde la carpeta base
+@import "base/mixins"; // agregando mixins
+@import "base/globales"; // agregando globales
+@import "layaout/header"; // agregando estilos al layaout
+@import "layaout/video"; //cargar video hoja
+@import "base/seccionFestival"; // carga estilos de la seccion festival

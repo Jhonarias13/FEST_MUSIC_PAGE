@@ -1,0 +1,43 @@
+.sobre-festival {
+    padding: 2rem 0;
+    .imagen-cantante {
+        margin-bottom: 2rem;
+    }
+    @include tablet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: $separacion;
+        padding: $separacion 0;
+        .imagen-cantante {
+            max-width: 50%;
+        }
+        .seccion-festival {
+            display: flex;
+        }
+    }
+}
+
+.aside-festival {
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2 {
+            font-size: 3rem;
+            padding-bottom: 2rem;
+        }
+        .fecha {
+            font-size: 2rem;
+            padding-bottom: 2rem;
+        }
+    }
+    .fecha {
+        color: $rosa;
+        font-weight: $bold;
+    }
+    .descripcion {
+        line-height: 1.8;
+        // max-width: 80%;
+    }
+}
